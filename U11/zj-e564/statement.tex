@@ -1,0 +1,11 @@
+% 題目來源:https://zerojudge.tw/ShowProblem?problemid=e564 
+% 黃惟:https://yuihuang.com/zj-e564 
+% 品python:https://hackmd.io/@10946009/zj-e564 
+Queues和Priority Queues是大部份的人都知道的資料結構。\\
+然而，儘管Team Queue在日常生活中經常發生，但並不是眾所周知。\\
+在Team Queue中，每個元素都屬於一個Team。\\
+如果某個元素進入Queue，它將首先從頭到尾搜索Queue，以檢查其teammates(同一Team的元素)是否已經在Queue中。\\
+如果是，它將排在其Team的最後一個。\\
+如果不是，它將排在Queue最後面。\\
+Dequeuing的方式與普通Queue中一樣：元素按照在Team Queue中出現的順序從頭到尾進行處理。\\
+您的任務是寫一個程式模擬Team Queue。\\
