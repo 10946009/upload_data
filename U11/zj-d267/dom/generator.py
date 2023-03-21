@@ -8,7 +8,7 @@ import requests
 def generate_random_one(m_min,m_max):
     global inputlist
     r = random.randrange(m_min,m_max+1)
-    inputlist.append(f'{r} \n')
+    inputlist.append(f'{r}\n')
     return r
 
 def generate_random_many(many,m_min,m_max,repeat,sort):

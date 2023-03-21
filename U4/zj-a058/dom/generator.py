@@ -7,7 +7,7 @@ import glob
 def generate_random_one(m_min,m_max):
     global inputlist
     r = random.randrange(m_min,m_max+1)
-    inputlist.append(f'{r} \n')
+    inputlist.append(f'{r}\n')
     return r
 
 def generate_random_many(many,m_min,m_max,repeat,sort):
@@ -85,7 +85,9 @@ for i in range(secret_count):
     # generate_random_first_many(第一個數字最小值,第一個數字最大值,亂數list的最小值,亂數list的最大值,是否可重複,是否排序)
     # 根據第一個的數字決定後面要產多少數字，會回傳一個亂數list且自動塞入inputlist
     a = generate_random_one(1,10) # 1~10的亂數
-    generate_random_many(a,25,50,0,0)
+    for i in range(a):
+        generate_random_one(1,50000)
+    
     print(inputlist)
     
     
