@@ -85,7 +85,7 @@ for i in range(secret_count):
     # generate_random_first_many(第一個數字最小值,第一個數字最大值,亂數list的最小值,亂數list的最大值,是否可重複,是否排序)
     # 根據第一個的數字決定後面要產多少數字，會回傳一個亂數list且自動塞入inputlist
     
-    inputlist.append(str(i+1))
+    inputlist.append(str(i+1)+'\n')
     print(inputlist)
     
     #測資邏輯結束
