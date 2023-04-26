@@ -1,16 +1,16 @@
 #!/usr/bin/env python 
 # python=
-a = list(map(int,input().split()))
-a006=a[1]**2-(4*a[0]*a[2])
-if a006 ==0:
-  x=int(-a[1]/(2*a[0]))
-  print(f"Two same roots x={x}")
-elif a006 < 0:
-  print("No real root")
+
+a, b, c = map(int, input().split())
+
+if b**2 - 4*a*c == 0:
+    x = int(-b / (2*a))
+    print(f"Two same roots x={x}")
+elif b**2 - 4*a*c > 0:
+    x = -b / (2*a)
+    y = (b**2 - 4*a*c) ** 0.5 / (2*a)
+    x1 = int(x + y)
+    x2 = int(x - y)
+    print(f"Two different roots x1={x1} , x2={x2}")
 else:
-  x=int((-a[1]+a006)/(2*a[0]))
-  y=int((-a[1]-a006)/(2*a[0]))
-  if x > y:
-    print(f"Two different roots x1={x} , x2={y}")
-  else:
-    print(f"Two different roots x1={y} , x2={x}")
+    print("No real root")

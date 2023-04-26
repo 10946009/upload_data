@@ -68,15 +68,15 @@ for i in range(secret_count):
     # inputlist.append(f'{a} {b}\n')
     
     # 此為zj-d074的範例，自定義亂數
-    # M = random.randrange(1, 10)
-    # sample_input = f"{M}"
-    # inputlist.append(sample_input+"\n")
-    # mlst=[]
-    # for r in range(0,M):
-    #     m =random.randrange(10,100)
-    #     mlst.append(str(m))
+    M = random.randrange(1, 10)
+    sample_input = f"{M}"
+    inputlist.append(sample_input+"\n")
+    mlst=[]
+    for r in range(0,M):
+        m =random.randrange(10,100)
+        mlst.append(str(m))
 
-    # inputlist.append(' '.join(mlst))
+    inputlist.append(' '.join(mlst))
     
 
     #此為zj-d074的呼叫方法範例
@@ -84,8 +84,8 @@ for i in range(secret_count):
     # generate_random_many(亂數數量,最小值,最大值,是否可重複,是否排序)，會回傳一個亂數list且自動塞入inputlist
     # generate_random_first_many(第一個數字最小值,第一個數字最大值,亂數list的最小值,亂數list的最大值,是否可重複,是否排序)
     # 根據第一個的數字決定後面要產多少數字，會回傳一個亂數list且自動塞入inputlist
-    a = generate_random_one(1,10) # 1~10的亂數
-    generate_random_many(a,25,50,0,0)
+    # a = generate_random_one(1,10) # 1~10的亂數
+    # generate_random_many(a,25,50,0,0)
     print(inputlist)
     
     
