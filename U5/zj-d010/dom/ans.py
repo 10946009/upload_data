@@ -8,8 +8,8 @@ while 1:
       if a % i == 0:
         sum += i
     if a == sum:
-      print("完全數")
+      print("3")
     else:
-      print("虧數" if a > sum else "盈數")
+      print("2" if a > sum else "1")
   except:
     break

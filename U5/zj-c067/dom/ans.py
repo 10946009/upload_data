@@ -13,4 +13,4 @@ while 1:
     if i > total:
       ans+=i-total
   index+=1
-  print(f"Set #{index}\nThe minimum number of moves is {int(ans)}.\n")
+  print(f"{int(ans)}")

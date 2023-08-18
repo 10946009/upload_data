@@ -48,7 +48,7 @@ def generate_random_first_many(f_min,f_max,m_min,m_max,repeat,sort):
 
 
 # 在這邊定義secret測資數量!!!
-secret_count = 5
+secret_count = 10
 
 secret = []
 for i in range(secret_count):
@@ -63,9 +63,9 @@ for i in range(secret_count):
     # secret=['python','c++','hello','a123','abcdefg']
 
     # 此為zj-a002的範例，自定義兩個數的亂數
-    # a = random.randrange(0,10000)
-    # b = random.randrange(0,10000)
-    # inputlist.append(f'{a} {b}\n')
+    a = random.randrange(9,30)
+    b = random.randrange(3,10)
+    inputlist.append(f'{a} {b}\n')
     
     # 此為zj-d074的範例，自定義亂數
     # M = random.randrange(1, 10)
@@ -84,8 +84,7 @@ for i in range(secret_count):
     # generate_random_many(亂數數量,最小值,最大值,是否可重複,是否排序)，會回傳一個亂數list且自動塞入inputlist
     # generate_random_first_many(第一個數字最小值,第一個數字最大值,亂數list的最小值,亂數list的最大值,是否可重複,是否排序)
     # 根據第一個的數字決定後面要產多少數字，會回傳一個亂數list且自動塞入inputlist
-    a = generate_random_one(1,10) # 1~10的亂數
-    generate_random_many(a,25,50,0,0)
+    # generate_random_many(a,25,50,0,0)
     print(inputlist)
     
     

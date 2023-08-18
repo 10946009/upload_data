@@ -84,8 +84,8 @@ for i in range(secret_count):
     # generate_random_many(亂數數量,最小值,最大值,是否可重複,是否排序)，會回傳一個亂數list且自動塞入inputlist
     # generate_random_first_many(第一個數字最小值,第一個數字最大值,亂數list的最小值,亂數list的最大值,是否可重複,是否排序)
     # 根據第一個的數字決定後面要產多少數字，會回傳一個亂數list且自動塞入inputlist
-    a = generate_random_one(1,10) # 1~10的亂數
-    generate_random_many(a,25,50,0,0)
+    for j in range(random.randrange(5,10)):
+        generate_random_first_many(3,10,1,100,1,0)
     print(inputlist)
     
     
