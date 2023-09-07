@@ -26,5 +26,5 @@ for i in combilst:
       switch = 1
       break  
     newlst = []
-print("YES" if switch else "NO")
+print("1" if switch else "0")
 

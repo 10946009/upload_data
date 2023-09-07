@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.3.3)  24 APR 2023 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.3.3)  19 AUG 2023 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -940,8 +940,7 @@ Package: layout 2021-03-10 v1.2e Show layout parameters
 \PositionX=\count368
 \PositionY=\count369
 \ArrowLength=\count370
-)
-No file main_f168.aux.
+) (./main_f168.aux)
 \openout1 = `main_f168.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
@@ -1027,6 +1026,7 @@ LaTeX Font Info:    ... okay on input line 155.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
 LaTeX Font Info:    ... okay on input line 155.
 Package hyperref Info: Link coloring OFF on input line 155.
+
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1041,6 +1041,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 155.
 LaTeX Info: Redefining \pageref on input line 155.
 LaTeX Info: Redefining \nameref on input line 155.
+
+(./main_f168.out) (./main_f168.out)
 \@outlinefile=\write4
 \openout4 = `main_f168.out'.
 
@@ -1163,19 +1165,13 @@ nput line 1.
 (./zj-f168/dom/data/sample/3.ans) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./main_f168.aux)
-
-Package rerunfilecheck Warning: File `main_f168.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main_f168.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main_f168.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28187 strings out of 479727
- 509579 string characters out of 5884999
- 807433 words of memory out of 5000000
+ 28193 strings out of 479727
+ 509663 string characters out of 5884999
+ 807517 words of memory out of 5000000
  45602 multiletter control sequences out of 15000+600000
  490712 words of font info for 103 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
@@ -1224,7 +1220,7 @@ m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main_f168.pdf (1 page, 1210527 bytes).
+Output written on main_f168.pdf (1 page, 1209066 bytes).
 PDF statistics:
  340 PDF objects out of 1000 (max. 8388607)
  213 compressed objects within 3 object streams
